@@ -35,7 +35,7 @@ body {
 } 
 
 .logo {
-  width: 30%;
+    width: 30%;
 }
 
 .logo > img{
@@ -59,9 +59,17 @@ body {
     left: -370px;
 }
 
-.cloud-icons > img{
+.cloud-icons > .clouds{
     height: 270px;
     width: auto;
+}
+
+.cloud-icons > .cloud{
+    display: none;
+    position: relative;
+    top: -145px;
+    left: 300px;
+    height: 60px;
 }
 
 .header-text {
@@ -251,4 +259,86 @@ body {
     height: 100px;
     width: 100%;
     background: linear-gradient(271.78deg, #03045E 0%, #353684 51%, #41428D 100.93%);
+}
+
+@media (max-width: 660px){
+
+  .header-container{
+    background: url("images/cloud-bg-sm.svg");
+    background-repeat: no-repeat;
+    background-size: 295px auto;
+    background-position: 80px 175px;
+    flex-direction: column;
+  }
+  
+  .logo > img {
+    height: 35vh;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+  }
+
+  .cloud-icons > .clouds{
+    display: none;
+  }
+
+  .cloud-icons > .cloud{
+    display: inline-block;
+  }
+
+  .wrapper {
+    position: relative;
+    width: 50%;
+    top: 225px;
+  }
+  
+  .text-wrapper{
+    margin: 0px;
+  }
+
+  .header-text > .line {
+    width: 60%;
+    height: 2px;
+    border-radius: 2px;
+}
+
+  .header-text > h6{
+    font-size: 8px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+  }
+  
+  .text > h1{
+    font-size: 26px;
+    line-height: 25px;
+    text-shadow: 1px 4px 6px rgb(0 0 0 / 25%);
+  }
+
+  .bar{
+    border-radius: 2px;
+    margin-top: 10px;
+  }
+
+  .bar > .percent{
+	  background:#303F9F;
+  	width:35%;
+  	height:5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+  }
+
+  .icons {
+    margin: 10px 5px;
+    width: 17px;
+    height: 18px;
+    filter: drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.25));
+  }
+
+  .fa {
+    font-size: 12px !important;
+  }
 }
