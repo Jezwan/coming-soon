@@ -264,10 +264,7 @@ body {
 @media (max-width: 660px){
 
   .header-container{
-    background: url("images/cloud-bg-sm.svg");
-    background-repeat: no-repeat;
-    background-size: 295px auto;
-    background-position: 80px 175px;
+    background: none;
     flex-direction: column;
   }
   
