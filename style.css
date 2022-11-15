@@ -68,7 +68,7 @@ body {
     display: none;
     position: relative;
     top: -145px;
-    left: 300px;
+    left: 290px;
     height: 60px;
 }
 
@@ -274,7 +274,7 @@ body {
     background: url("images/cloud-bg-sm.svg");
     background-repeat: no-repeat;
     background-size: 295px auto;
-    background-position: 80px 175px;
+    background-position: right;
   }
 
   .header-container{
@@ -301,8 +301,8 @@ body {
 
   .wrapper {
     position: relative;
-    width: 50%;
-    top: 225px;
+    width: 182px;
+    top: 70%;
   }
   
   .text-wrapper{
