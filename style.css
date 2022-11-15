@@ -353,6 +353,7 @@ body {
 
   .fa {
     font-size: 12px !important;
+    padding: 2px !important;
   }
 
   .letter-container{
